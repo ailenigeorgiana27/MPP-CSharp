@@ -1,9 +1,14 @@
-﻿using DefaultNamespace;
-using MPP_CSharpProject.domain;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Model;
 
-namespace Services;
-
-public interface IObserver
+namespace Services
 {
-    void NewTicketBought(Flight flight);
+    public interface IObserver
+    {
+        void Update(Participant participant, Int64[] probas);
+    }
 }

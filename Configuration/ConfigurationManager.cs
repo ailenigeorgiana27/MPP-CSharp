@@ -1,8 +1,12 @@
-﻿using System.Collections.Specialized;
-using System.Configuration.Internal;
-namespace Configuration;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public static class ConfigurationManager
+namespace Configuration
 {
-    
+    internal class ConfigurationManager
+    {
+    }
 }

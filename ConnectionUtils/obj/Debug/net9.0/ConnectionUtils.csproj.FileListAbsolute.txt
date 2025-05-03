@@ -1,0 +1,14 @@
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\bin\Debug\net9.0\ConnectionUtils.dll.config
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\bin\Debug\net9.0\ConnectionUtils.deps.json
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\bin\Debug\net9.0\ConnectionUtils.dll
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\bin\Debug\net9.0\ConnectionUtils.pdb
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\ConnectionUtils.csproj.AssemblyReference.cache
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\ConnectionUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\ConnectionUtils.AssemblyInfoInputs.cache
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\ConnectionUtils.AssemblyInfo.cs
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\ConnectionUtils.csproj.CoreCompileInputs.cache
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\ConnectionUtils.sourcelink.json
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\ConnectionUtils.dll
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\refint\ConnectionUtils.dll
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\ConnectionUtils.pdb
+C:\Users\Personal PC\RiderProjects\MPP-Charp\ConnectionUtils\obj\Debug\net9.0\ref\ConnectionUtils.dll

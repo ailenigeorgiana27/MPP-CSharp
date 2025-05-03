@@ -1,77 +1,125 @@
-﻿using System.Configuration;
-
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
+using Persistance;
+using Persistance.database;
+using Services;
+using Model;
+using Persistence.database;
+using System.Configuration;
+using System.Data.SQLite;
 using System.Reflection;
-using DefaultNamespace;
-using Grpc.Core;
 using log4net;
 using log4net.Config;
-using Org.Example.ClientFx.Grpc;
-using Services;
+using Networking;
+using Networking.JsonProtocol;
 
-namespace Server;
-public class StartServer
+
+namespace Server
 {
-    private static int DEFAULT_PORT = 55555;
-    private static string DEFAULT_IP = "localhost";
-    private static readonly ILog log = LogManager.GetLogger(typeof(StartServer));
-    static async Task Main(string[] args)
+    public class StartServer
     {
-        var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
-        XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
-        log.Info("Starting Server");
-        int port=DEFAULT_PORT;
-        string ip = DEFAULT_IP;
-        String portImported = ConfigurationManager.AppSettings["port"];
-        if (portImported != null)
+        private static int DEFAULT_PORT=55556;
+        private static String DEFAULT_IP="127.0.0.1";
+        private static readonly ILog log = LogManager.GetLogger(typeof(StartServer));
+        public static void Main(string[] args)
         {
-            bool success = Int32.TryParse(portImported, out port);
-            if (!success)
+            
+          
+            var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
+            XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
+			
+            log.Info("Starting  server");
+            log.Info("Reading properties from App.config ...");
+            int port = DEFAULT_PORT;
+            String ip = DEFAULT_IP;
+            String portS= ConfigurationManager.AppSettings["port"];
+            if (portS == null)
             {
-                port=DEFAULT_PORT;
-                Console.WriteLine("Invalid port, using the default one");
+                log.Debug("Port property not set. Using default value "+DEFAULT_PORT);
             }
-        }
-        String ipImported = ConfigurationManager.AppSettings["ip"];
-        
-        IDictionary<string,string> properties= new SortedList<string,string>();
-        properties.Add("ConnectionString",GetConnectionStringByName("MariaDBConnection"));
-        
-        IEmployeeRepository employeeRepository=new EmployeeDBRepository(properties);
-        IFlightRepository flightRepository=new FlightRepository(properties);
-        ITicketRepository ticketRepository=new TicketRepository(properties);
-        
-        //IServices servicesImplementation=new ServerImplementation(employeeRepository,flightRepository,ticketRepository);
-        
-        ProtoServiceImplementation protoServiceImplementation=new ProtoServiceImplementation(employeeRepository,flightRepository,ticketRepository);
-        NotificationServiceImpl notificationServiceImpl = new NotificationServiceImpl();
-
-        var server = new Grpc.Core.Server
-        {
-            Services =
+            else
             {
-                BookingService.BindService(protoServiceImplementation),
-                NotificationService.BindService(notificationServiceImpl)
-            },
-            Ports = { new ServerPort(ipImported, port, ServerCredentials.Insecure) }
-        };
-        server.Start();
-        log.Info("Server started,running on "+ipImported+":"+port);
-        Console.ReadLine();
-        
-        await server.ShutdownAsync();
-       
-    }
+                bool result = Int32.TryParse(portS, out port);
+                if (!result)
+                {
+                    log.Debug("Port property not a number. Using default value "+DEFAULT_PORT);
+                    port = DEFAULT_PORT;
+                    log.Debug("Portul "+port);
+                }
+            }
+            Console.WriteLine("Port property set to "+port);
+            String ipS=ConfigurationManager.AppSettings["ip"];
+           
+            if (ipS == null)
+            {
+                log.Info("Port property not set. Using default value "+DEFAULT_IP);
+            }
+           
+            else
+            {
+                ip = ipS;
+                log.Debug("IP property set to "+ip);
+            }
+           
+            Console.WriteLine("IP property set to "+ip);
+      
+            Console.WriteLine("Configuration Settings for concursDB {0}", GetConnectionStringByName("InotDb"));
+            IDictionary<String, string> props = new SortedList<String, String>();
+            props.Add("ConnectionString", GetConnectionStringByName("InotDb"));
+            IPersoanaOficiuRepo employeeRepository = new PersoanaOficiuDbRepo(props);
+            IParticipantRepo participantRepo = new ParticipantDbRepo(props);
+            IProbaRepo probaRepo = new ProbaDbRepo(props);
+            IInscriereRepo inscriereRepo = new InscriereDbRepo(props);
 
-    static string GetConnectionStringByName(string name)
-    {
-        string returnValue = null;
-        ConnectionStringSettings connectionStringSettings = ConfigurationManager.ConnectionStrings[name];
-        if (connectionStringSettings != null)
-        {
-            returnValue = connectionStringSettings.ConnectionString;
+            IServices service =
+                new Service(employeeRepository, participantRepo, probaRepo, inscriereRepo);
+
+            log.DebugFormat("Starting server on IP {0} and port {1}", ip, port);
+            JsonServer server = new JsonServer(ip,port, service);
+            Console.WriteLine("Server created");
+            server.Start();
+            log.Debug("Server started ...");
+            Console.ReadLine();
         }
-        return returnValue;
+
+        static string GetConnectionStringByName(string name)
+        {
+            string returnValue = null;
+            ConnectionStringSettings connectionStringSettings = ConfigurationManager.ConnectionStrings[name];
+            if (connectionStringSettings != null)
+            {
+                returnValue = connectionStringSettings.ConnectionString;
+            }
+            return returnValue;
+        }
+
     }
-    
+    public class JsonServer: ConcurrentServer 
+    {
+        private IServices server;
+        private ClientWorker worker;
+        private static readonly ILog log = LogManager.GetLogger(typeof(JsonServer));
+        public JsonServer(string host, int port, IServices server) : base(host, port)
+        {
+            this.server = server;
+            log.Debug("Creating JsonServer...");
+        }
+        protected override Thread createWorker(TcpClient client)
+        {
+            if (client == null)
+            {
+                Console.WriteLine("TcpClient is null.");
+                throw new ArgumentNullException(nameof(client), "TcpClient cannot be null.");
+            }
+
+            worker = new ClientWorker(server, client);
+            return new Thread(worker.run);
+        }
+    }
 }
+
+

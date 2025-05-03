@@ -8,20 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vladb\\.nuget\\packages\\": {}
+    "C:\\Users\\Personal PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Anul-2\\Semestrul-II\\MPP\\MPP-WindowsForm\\Configuration\\Configuration.csproj",
+      "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Configuration\\Configuration.csproj",
       "projectName": "Configuration",
-      "projectPath": "D:\\Anul-2\\Semestrul-II\\MPP\\MPP-WindowsForm\\Configuration\\Configuration.csproj",
-      "packagesPath": "C:\\Users\\vladb\\.nuget\\packages\\",
-      "outputPath": "D:\\Anul-2\\Semestrul-II\\MPP\\MPP-WindowsForm\\Configuration\\obj\\",
+      "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Configuration\\Configuration.csproj",
+      "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Configuration\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\vladb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -46,7 +45,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\vladb\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Personal PC\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

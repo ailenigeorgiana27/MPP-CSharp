@@ -1,32 +1,38 @@
 ﻿using System;
-using System.Data;
 using System.Collections.Generic;
-
-namespace MPP_CSharpProject.utils
+using System.Data;
+using System.Data.SQLite;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+using ConnectionUtils;
+namespace Persistance.utils
 {
-	public static class DBUtils
-	{
+    public static class DBUtils
+    {
 		
 
-		private static IDbConnection instance = null;
+        private static IDbConnection instance = null;
 
 
-		public static IDbConnection getConnection(IDictionary<string,string> props)
-		{
-			if (instance == null || instance.State == System.Data.ConnectionState.Closed)
-			{
-				instance = getNewConnection(props);
-				instance.Open();
-			}
-			return instance;
-		}
+        public static IDbConnection getConnection(IDictionary<string,string> props)
+        {
+            if (instance == null || instance.State == System.Data.ConnectionState.Closed)
+            {
+                instance = getNewConnection(props);
+                instance.Open();
+            }
+            return instance;
+        }
 
-		private static IDbConnection getNewConnection(IDictionary<string,string> props)
-		{
+        private static IDbConnection getNewConnection(IDictionary<string,string> props)
+        {
 			
-			return ConnectionUtils.ConnectionFactory.getInstance().createConnection(props);
+            return ConnectionUtils.ConnectionFactory.getInstance().createConnection(props);
 
 
-		}
-	}
+        }
+    }
 }
+
