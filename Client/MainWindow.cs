@@ -188,7 +188,7 @@ namespace Client.GUI
             // distanceCombo
             // 
             distanceCombo.FormattingEnabled = true;
-            distanceCombo.Items.AddRange(new object[] { "50", "200", "800", "1500" });
+            distanceCombo.Items.AddRange(new object[] { "50","150", "200", "800", "1500" });
             distanceCombo.Location = new Point(521, 258);
             distanceCombo.Name = "distanceCombo";
             distanceCombo.Size = new Size(151, 28);
@@ -384,13 +384,22 @@ namespace Client.GUI
                                     if (probeInfo.Style == selectedStyle && probeInfo.Distance == selectedDistance)
                                     {
                                         int probeCount = probaIds.Length;
-                                        dataGridView1.Rows.Add(participant.Name, participant.Age, probeCount);
-                                        allParticipants.Add(participant);
+
+                                        // Verifică dacă participantul e deja în listă
+                                        bool alreadyExists = allParticipants.Any(p => p.Id == participant.Id);
+
+                                        if (!alreadyExists)
+                                        {
+                                            dataGridView1.Rows.Add(participant.Name, participant.Age, probeCount);
+                                            allParticipants.Add(participant);
+                                        }
+
                                         break;
                                     }
                                 }
                             }
                         }
+                        
                     }));
                 }
                 catch (Exception ex)

@@ -11,9 +11,9 @@ namespace Model
         public String Name { get; set; }
         public int Age { get; set; }
 
-        
 
-        public Participant(long id,String name, int age):base(id)
+
+        public Participant(long id, String name, int age) : base(id)
         {
             Name = name;
             Age = age;
@@ -22,5 +22,21 @@ namespace Model
 
         public override string ToString()
             => $"Participant {{ name: {Name}, age: {Age}}}";
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Participant other)
+            {
+                return Id == other.Id;
+            }
+
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return Id.GetHashCode();
+        }
     }
+
 }

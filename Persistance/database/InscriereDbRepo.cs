@@ -10,16 +10,23 @@ using log4net;
 
 namespace Persistence.database
 {
-    public class InscriereDbRepo(IDictionary<string, string> dbConnection) : IInscriereRepo
+    public class InscriereDbRepo : IInscriereRepo
     {
         private static readonly ILog Log = LogManager.GetLogger("InscriereDbRepo");
         private readonly IParticipantRepo _participantRepo;
         private readonly IProbaRepo _probaRepo;
+        private readonly IDictionary<string, string> _dbConnection;
 
+        public InscriereDbRepo(IDictionary<string, string> dbConnection, IParticipantRepo participantRepo, IProbaRepo probaRepo)
+        {
+            _dbConnection = dbConnection;
+            _participantRepo = participantRepo;
+            _probaRepo = probaRepo;
+        }
         public int FindNoOfParticipants(long proba)
         {
             Log.InfoFormat("Entering FindNoOfParticipanti with idProba {0}", proba);
-            IDbConnection con = DBUtils.getConnection(dbConnection);
+            IDbConnection con = DBUtils.getConnection(_dbConnection);
             int number = 0;
 
             using (var comm = con.CreateCommand())
@@ -40,7 +47,7 @@ namespace Persistence.database
         public int FindNoOfProbeDupaParticipanti(long participant)
         {
             Log.InfoFormat("Entering FindNoOfProbeDupaParticipanti with idParticipant {0}", participant);
-            IDbConnection con = DBUtils.getConnection(dbConnection);
+            IDbConnection con = DBUtils.getConnection(_dbConnection);
             int number = 0;
 
             using (var comm = con.CreateCommand())
@@ -66,7 +73,7 @@ namespace Persistence.database
     {
         Log.Info("Entering FindAll");
         List<Inscriere> entities = new List<Inscriere>();
-        IDbConnection con = DBUtils.getConnection(dbConnection);
+        IDbConnection con = DBUtils.getConnection(_dbConnection);
 
         using (var comm = con.CreateCommand())
         {
@@ -96,7 +103,7 @@ namespace Persistence.database
     public Inscriere? Save(Inscriere entity)
     {
         Log.InfoFormat("Entering Save with value {0}", entity);
-        IDbConnection con = DBUtils.getConnection(dbConnection);
+        IDbConnection con = DBUtils.getConnection(_dbConnection);
 
         using (var comm = con.CreateCommand())
         {
@@ -126,10 +133,10 @@ namespace Persistence.database
     {
         Log.InfoFormat("Entering FindParticipantsByProba with idProba {0}", proba);
         List<Participant> participants = new List<Participant>();
-        IDbConnection con = DBUtils.getConnection(dbConnection);
+        IDbConnection con = DBUtils.getConnection(_dbConnection);
         using (var comm = con.CreateCommand())
         {
-            comm.CommandText = "SELECT idParticipant FROM Inscriere WHERE proba = @proba";
+            comm.CommandText = "SELECT participant FROM Inscriere WHERE proba = @proba";
             IDbDataParameter param = comm.CreateParameter();
             param.ParameterName = "@proba";
             param.Value = proba;

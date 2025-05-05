@@ -73,7 +73,7 @@ namespace Server
             IPersoanaOficiuRepo employeeRepository = new PersoanaOficiuDbRepo(props);
             IParticipantRepo participantRepo = new ParticipantDbRepo(props);
             IProbaRepo probaRepo = new ProbaDbRepo(props);
-            IInscriereRepo inscriereRepo = new InscriereDbRepo(props);
+            IInscriereRepo inscriereRepo = new InscriereDbRepo(props, participantRepo, probaRepo);
 
             IServices service =
                 new Service(employeeRepository, participantRepo, probaRepo, inscriereRepo);
