@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NTh1Xw6yifU=",
+  "dgSpecHash": "+Kp2fZ+Drok=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Personal PC\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Personal PC\\.nuget\\packages\\log4net\\3.1.0-preview.3\\log4net.3.1.0-preview.3.nupkg.sha512",

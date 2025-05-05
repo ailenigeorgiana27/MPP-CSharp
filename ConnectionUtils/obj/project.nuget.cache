@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MUigLjstvmM=",
+  "dgSpecHash": "UEKiS8W/M1w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
+  "projectFilePath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Personal PC\\.nuget\\packages\\microsoft.data.sqlite\\10.0.0-preview.3.25171.6\\microsoft.data.sqlite.10.0.0-preview.3.25171.6.nupkg.sha512",
     "C:\\Users\\Personal PC\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.0-preview.3.25171.6\\microsoft.data.sqlite.core.10.0.0-preview.3.25171.6.nupkg.sha512",

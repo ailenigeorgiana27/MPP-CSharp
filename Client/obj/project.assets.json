@@ -1857,11 +1857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Client\\Client.csproj",
+      "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Client\\obj\\",
+      "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1878,17 +1878,17 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj"
+            "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj"
             },
-            "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Networking\\Networking.csproj": {
-              "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Networking\\Networking.csproj"
+            "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Networking\\Networking.csproj": {
+              "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Networking\\Networking.csproj"
             },
-            "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj": {
-              "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj"
+            "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj": {
+              "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj"
             },
-            "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj"
+            "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj"
             }
           }
         }

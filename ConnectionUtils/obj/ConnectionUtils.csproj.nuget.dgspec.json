@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj": {}
+    "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj": {
+    "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
+        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
         "projectName": "ConnectionUtils",
-        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
+        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
         "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\obj\\",
+        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

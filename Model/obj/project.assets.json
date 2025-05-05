@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj",
+      "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\obj\\",
+      "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

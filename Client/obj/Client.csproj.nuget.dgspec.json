@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Client\\Client.csproj": {}
+    "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Client\\Client.csproj": {
+    "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Client\\Client.csproj",
+        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Client\\obj\\",
+        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,17 +28,17 @@
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj"
               },
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Networking\\Networking.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Networking\\Networking.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Networking\\Networking.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Networking\\Networking.csproj"
               },
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj"
               },
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj": {
+    "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
+        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
         "projectName": "ConnectionUtils",
-        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
+        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj",
         "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\obj\\",
+        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj": {
+    "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\obj\\",
+        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,14 +213,14 @@
         }
       }
     },
-    "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Networking\\Networking.csproj": {
+    "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Networking\\Networking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Networking\\Networking.csproj",
+        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Networking\\Networking.csproj",
         "projectName": "Networking",
-        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Networking\\Networking.csproj",
+        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Networking\\Networking.csproj",
         "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Networking\\obj\\",
+        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Networking\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -237,14 +237,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj"
               },
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj"
               },
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj"
               }
             }
           }
@@ -290,14 +290,14 @@
         }
       }
     },
-    "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj": {
+    "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj",
+        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj",
         "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\obj\\",
+        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -314,11 +314,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\ConnectionUtils\\ConnectionUtils.csproj"
               },
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj"
               }
             }
           }
@@ -368,14 +368,14 @@
         }
       }
     },
-    "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj": {
+    "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\Personal PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Services\\obj\\",
+        "outputPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Personal PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -392,11 +392,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Model\\Model.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Model\\Model.csproj"
               },
-              "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\MPP-Charp\\Persistance\\Persistance.csproj"
+              "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\Users\\Personal PC\\RiderProjects\\mpp-proiect-csharp-ailenigeorgiana27\\MPP-Charp\\Persistance\\Persistance.csproj"
               }
             }
           }
